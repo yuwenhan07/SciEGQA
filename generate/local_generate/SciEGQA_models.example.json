@@ -1,0 +1,12 @@
+[
+  {
+    "name": "qwen3-vl-8b",
+    "model_name_or_path": "/path/to/Qwen3-VL-8B-Instruct",
+    "template": "qwen3_vl_nothink",
+    "backend": "vllm",
+    "image_max_pixels": 262144,
+    "max_new_tokens": 256,
+    "temperature": 0,
+    "top_p": 1
+  }
+]

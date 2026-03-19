@@ -1,8 +1,22 @@
+# Core API usage
+openai>=1.5.0
+transformers>=4.46.0
+
+# Data conversion and image handling
+Pillow>=10.0.0
+
+# Local generation / LlamaFactory pipeline
+datasets>=2.16.0
+tqdm>=4.66.0
+fire>=0.5.0
+av>=12.0.0
+llamafactory
+vllm
+
 # Core training & inference stack
 torch>=2.3.0
 transformers>=4.39.0
 modelscope>=1.13.0
-vllm>=0.5.4
 segment-anything>=1.0
 
 # Vision & document processing
@@ -20,3 +34,7 @@ feedparser>=6.0.10
 qwen-vl-utils>=0.0.8
 lmdeploy>=0.5.0
 openai>=1.23.0
+
+# Notes:
+# 1. Install a CUDA-matched PyTorch version separately before using local generation.
+# 2. generate/local_generate/vllm_infer.py also expects the eval_bleu_rouge helper from the LlamaFactory environment.
