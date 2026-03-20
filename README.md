@@ -5,7 +5,7 @@
     ·
     <a><strong>Zhaoxi Zhang</strong></a>
     ·
-    <a href="https://github.com/ChenWangHKU/"><strong>Wang Chen</strong></a>
+    <a><strong>Wang Chen</strong></a>
     ·
     <a><strong>Guanqiang Qi</strong></a>
     ·
