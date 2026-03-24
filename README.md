@@ -18,6 +18,11 @@
     <a><strong>Jizhou Huang</strong></a>
   </p>
   <p align="center">
+    <a href="https://yuwenhan07.github.io/SciEGQA-project/">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" width="16" height="16" />
+      <strong> Project Page</strong>
+    </a>
+    ·
     🤗 <a href="https://huggingface.co/datasets/Yuwh07/SciEGQA-Bench"><strong> Benchmark Hugging Face</strong></a>
     🤗 <a href="https://huggingface.co/datasets/Yuwh07/BBox_DocVQA_Train"><strong> Training Set Hugging Face</strong></a>
   </p>
@@ -144,7 +149,6 @@ The repository currently supports two evaluation directions:
 See:
 
 - [metrics/README.md](metrics/README.md)
-- [metrics/README_zh.md](metrics/README_zh.md)
 
 <p align="center">
   <img src="asset/analysis.png" alt="SciEGQA analysis" width="100%">
