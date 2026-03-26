@@ -154,6 +154,10 @@ See:
   <img src="asset/analysis.png" alt="SciEGQA analysis" width="100%">
 </p>
 
+<p align="center">
+  <img src="asset/case-study.png" alt="a case study" width="100%">
+</p>
+
 ## 📚 Intended Use
 
 SciEGQA is intended for research on:
