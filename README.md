@@ -24,7 +24,7 @@
     </a>
     ·
     🤗 <a href="https://huggingface.co/datasets/Yuwh07/SciEGQA-Bench"><strong> Benchmark Hugging Face</strong></a>
-    🤗 <a href="https://huggingface.co/datasets/Yuwh07/BBox_DocVQA_Train"><strong> Training Set Hugging Face</strong></a>
+    🤗 <a href="https://huggingface.co/datasets/Yuwh07/SciEGQA-Train"><strong> Training Set Hugging Face</strong></a>
   </p>
 </p>
 
@@ -170,4 +170,16 @@ SciEGQA is intended for research on:
 
 ## Citation
 
-If you use SciEGQA in your research, please cite the project once the paper and citation entry are released.
+If you use SciEGQA Dataset in your research, please cite:
+
+```bibtex
+@misc{yu2026sciegqadatasetscientificevidencegrounded,
+      title={SciEGQA: A Dataset for Scientific Evidence-Grounded Question Answering and Reasoning}, 
+      author={Wenhan Yu and Zhaoxi Zhang and Wang Chen and Guanqiang Qi and Weikang Li and Lei Sha and Deguo Xia and Jizhou Huang},
+      year={2026},
+      eprint={2511.15090},
+      archivePrefix={arXiv},
+      primaryClass={cs.DB},
+      url={https://arxiv.org/abs/2511.15090}, 
+}
+```
