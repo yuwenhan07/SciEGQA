@@ -1,5 +1,6 @@
 <p align="center">
   <h1 align="center">SciEGQA: A Dataset for Scientific Evidence-Grounded Question Answering and Reasoning</h1>
+  <p align="center"><strong>🎉 Accepted to KDD 2027, Datasets and Benchmarks Track</strong></p>
   <p align="center">
     <a href="https://github.com/yuwenhan07"><strong>Wenhan Yu</strong></a>
     ·
