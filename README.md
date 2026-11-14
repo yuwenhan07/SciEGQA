@@ -24,6 +24,8 @@
       <strong> Project Page</strong>
     </a>
     ·
+    <a href="https://github.com/yuwenhan07/SciEGQA-project/blob/master/static/docs/ACM_SciEGQA.pdf"><strong>Latest Paper PDF</strong></a>
+    ·
     🤗 <a href="https://huggingface.co/datasets/Yuwh07/SciEGQA-Bench"><strong> Benchmark Hugging Face</strong></a>
     🤗 <a href="https://huggingface.co/datasets/Yuwh07/SciEGQA-Train"><strong> Training Set Hugging Face</strong></a>
   </p>
