@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">SciEGQA: A Dataset for Visual Evidence-Grounded Question Answering on Scientific Documents</h1>
+  <h1 align="center">SciEGQA: A Dataset for Scientific Evidence-Grounded Question Answering and Reasoning</h1>
   <p align="center">
     <a href="https://github.com/yuwenhan07"><strong>Wenhan Yu</strong></a>
     ·
@@ -138,6 +138,19 @@ For detailed usage, arguments, and examples, please see the README files inside 
 - [generate/api_generate/README.md](generate/api_generate/README.md)
 - [metrics/README.md](metrics/README.md)
 
+
+## 📊 Main benchmark results
+
+The latest paper reports the following base and fine-tuned results. Task 1 uses Qwen3.5-27B as the fixed answerer after grounding; Task 2 evaluates the named model directly. SFT uses separate grounding and QA checkpoints.
+
+| Model | Task 1 Mean IoU | Task 1 Acc. | Task 2 Document | Task 2 Page | Task 2 Region |
+|---|---:|---:|---:|---:|---:|
+| GLM-4.6V-Flash | 19.90% | 35.92% | 50.16% | 72.03% | 77.94% |
+| GLM-4.6V-Flash-SFT | 37.23% | 52.80% | 63.09% | 78.37% | 85.10% |
+| Qwen3-VL-8B | 21.43% | 32.04% | 9.30% | 60.51% | 65.87% |
+| Qwen3-VL-8B-SFT | 38.66% | 49.97% | 32.87% | 69.43% | 76.89% |
+
+See the [project page](https://yuwenhan07.github.io/SciEGQA-project/) for the full comparison and paper.
 
 ## 📑 Evaluation
 
