@@ -189,13 +189,16 @@ SciEGQA is intended for research on:
 If you use SciEGQA Dataset in your research, please cite:
 
 ```bibtex
-@misc{yu2026sciegqadatasetscientificevidencegrounded,
-      title={SciEGQA: A Dataset for Scientific Evidence-Grounded Question Answering and Reasoning}, 
-      author={Wenhan Yu and Zhaoxi Zhang and Wang Chen and Guanqiang Qi and Weikang Li and Lei Sha and Deguo Xia and Jizhou Huang},
-      year={2026},
-      eprint={2511.15090},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB},
-      url={https://arxiv.org/abs/2511.15090}, 
+@inproceedings{yu2027sciegqa,
+  author    = {Wenhan Yu and Zhaoxi Zhang and Wang Warren Chen and Guanqiang Qi and Weikang Li and Lei Sha and Deguo Xia and Jizhou Huang},
+  title     = {{SciEGQA}: A Dataset for Scientific Evidence-Grounded Question Answering and Reasoning},
+  booktitle = {Proceedings of the 33rd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
+  series    = {KDD '27},
+  year      = {2027},
+  publisher = {Association for Computing Machinery},
+  location  = {San Jose, CA, USA},
+  isbn      = {979-8-4007-3134-1},
+  doi       = {10.1145/3862868.3871559},
+  url       = {https://doi.org/10.1145/3862868.3871559}
 }
 ```
